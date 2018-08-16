@@ -5,10 +5,16 @@
           fetch="https://github.com/AOSP-LEGACY-MSM8916"
           revision="pie-r1" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+  
   <!-- HALS  -->
-  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/audio" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,pdk" remote="github" revision="cr-7.0" />
+  <project path="hardware/qcom/display" name="CarbonBeta/android_hardware_qcom_display" groups="qcom,pdk" remote="github" revision="cr-7.0" />
+  <project path="hardware/qcom/media" name="CarbonBeta/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="cr-7.0" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CarbonBeta/android_hardware_qcom_audio" groups="qcom,pdk" remote="github" revision="cr-7.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CarbonBeta/android_hardware_qcom_display" groups="qcom,pdk" remote="github" revision="cr-7.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CarbonBeta/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="cr-7.0-caf-8996" />
 
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" revision="pie-r1"  remote="legacy" />

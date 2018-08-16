@@ -18,7 +18,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/AOSP-LEGACY-MSM8916/platform_manifest.git -b pie-r1
+    repo init -u https://github.com/SuperDroidBond/platform_manifest-2.git -b pie-r1
     
 
 Then to sync up:
