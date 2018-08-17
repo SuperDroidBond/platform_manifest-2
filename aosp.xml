@@ -49,7 +49,7 @@
   <!-- General repos -->
   <project path="art" name="platform_art" revision="pie-r1" remote="legacy" />
   <project path="bionic" name="platform_bionic" revision="pie-r1" remote="legacy" />
-  <project path="build/make" name="platform_build_make" revision="pie-r1" remote="legacy">
+  <project path="build/make" name="SuperDroidBond/platform_build" revision="pie" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -85,6 +85,7 @@
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" revision="pie-r1" remote="legacy" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" revision="pie-r1" remote="legacy" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" revision="pie-r1" remote="legacy" />
+  <project path="vendor/xtended" name="SuperDroidBond/vendor_xtended_pie" remote="github" revision="pie" />
 
   <!-- System Repos -->
   <project path="system/bt" name="platform_system_bt" revision="pie-r1" remote="legacy" />
